@@ -19,7 +19,7 @@ type X = {
         'hi',
         {
           m: ['hey']
-        }
+        },
       ]
     }
   }
@@ -42,7 +42,7 @@ type Expected = {
         'hi',
         {
           readonly m: readonly ['hey']
-        }
+        },
       ]
     }
   }

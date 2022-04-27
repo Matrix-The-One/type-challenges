@@ -7,7 +7,7 @@ type cases = [
   Expect<Equal<Promise<boolean>, MyReturnType<() => Promise<boolean>>>>,
   Expect<Equal<() => 'foo', MyReturnType<() => () => 'foo'>>>,
   Expect<Equal<1 | 2, MyReturnType<typeof fn>>>,
-  Expect<Equal<1 | 2, MyReturnType<typeof fn1>>>
+  Expect<Equal<1 | 2, MyReturnType<typeof fn1>>>,
 ]
 
 type ComplexObject = {
